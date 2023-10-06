@@ -25,8 +25,10 @@ Pre-processing is applied to the input text to standardize the input as per the 
 authenticity of the user is checked through user-id and password. If the user detail is invalid, an appropriate response is sent. If the user authenticates successfully, the input text is processed to extract keywords. Based on the keywords, information required by the user is understood and the information is provided from the database
 # Training and testing the dataset
 The training data is used to make sure that machine recognises patterns in the data,the cross-validation of the data is used to ensure better accuracy and efficiency of the algorithm used to train machine.Initially, bot has to greet the user who using the website.so,greeting and specified person response is generated using code and their outputs are displayed.There are various approachs for designing a chatbot. In this rule based approach. There is a fixed set of response available and based on a certain rule, a response is selected. For example users says “hello” generate a response ”hi, how are you?”. The main advantage of this approach they often provide perfect response for the user quries. Developing a chatbot is a simple task which is capable of responding to the user queries related to college and will generate answers based on cosine similarity. Download the required libraries using NLTK to create our chatbot.
-# Handling Greetings: We want our chatbot to reply to greetings.For that,we will create a function that handles greetings.We will create two lists with different types of greeting messages.
-# Response Generation: We need to create a method for general response generation using Cosine similarity.
+# Handling Greetings: 
+We want our chatbot to reply to greetings.For that,we will create a function that handles greetings.We will create two lists with different types of greeting messages.
+# Response Generation:
+We need to create a method for general response generation using Cosine similarity.
 # RULE BASED ALGORITHM
 Rules typically take the form of an {IF:THEN} expression, (e.g. {IF 'condition' THEN 'result'}, or as a more specific example, {IF 'red' AND 'octagon' THEN 'stop-sign'}). An individual rule is not in itself a model, since the
 rule is only applicable when its condition is satisfied. Therefore rule-based machine learning methods typically comprise a set of rules, or knowledge base, that collectively make up the prediction model.
